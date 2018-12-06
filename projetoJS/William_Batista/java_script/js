@@ -1,0 +1,30 @@
+function validar(){
+
+	if (document.getElementById("nome").value == "") {
+		alert ("todos os campos devem ser preenchidos para o envio da mensagem");
+	}
+	else if (document.getElementById("email").value == "") {
+		alert ("todos os campos devem ser preenchidos para o envio da mensagem");
+	}
+	else if (document.getElementById("assunto").value == "") {
+		alert ("todos os campos devem ser preenchidos para o envio da mensagem");
+	}
+	else if (document.getElementById("mensagem").value == "") {
+		alert ("todos os campos devem ser preenchidos para o envio da mensagem");
+	}
+	else  {
+		alert ("ola " + document.getElementById ("nome").value + " sua mensagem foi enviada com sucesso, será respondida o mais breve possivel");
+
+	}
+
+}
+function redirect() {
+  var pass;
+  pass = prompt("todas as redes sociais estão indisponíveis no momento! apenas comunicação por whatsapp, digite sim se quiser estabelecer comunicação");
+  if (pass == "sim") {
+    window.location.href = "https://api.whatsapp.com/send?1=pt_BR&phone=5583987683042";
+  } 
+  else {
+    alert("obrigado pela visita!");
+  }
+}

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+ 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Portfolio william batista</title>
+        <meta name="description" content="">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+       
+        <link rel="stylesheet" href="css/font-awesome.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/templatemo-style.css">
+    </head>
+    <body>
+       
+        
+
+        <!-- SIDEBAR -->
+        <div class="sidebar-menu hidden-xs hidden-sm">
+            <div class="top-section">
+                <div class="profile-image">
+                    <img src="img/profile.jpg" alt="Volton">
+                </div>
+                <h3 class="profile-title">bem vindo</h3>
+                <p class="profile-description">William Kevin batista silva</p>
+            </div> <!-- top-section -->
+            <div class="main-navigation">
+                <ul class="navigation">
+                    <li><a href="#top"><i class="fa fa-globe"></i>Bem vindo</a></li>
+                    <li><a href="#about"><i class="fa fa-pencil"></i>Sobre mim</a></li>
+                    <li><a href="#projects"><i class="fa fa-paperclip"></i>Minha galeria</a></li>
+                    <li><a href="#contact"><i class="fa fa-link"></i>Contate-me</a></li>
+                </ul>
+            </div> <!-- .main-navigation -->
+            <div class="social-icons">
+                <ul>
+                    <li onclick="redirect();"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li onclick="redirect();"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li onclick="redirect();"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li onclick="redirect();"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li onclick="redirect();"><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li onclick="redirect();"><a href="#"><i class="fa fa-rss"></i></a></li>
+                </ul>
+            </div> <!-- .social-icons -->
+        </div> <!-- .sidebar-menu -->
+        
+
+        <div class="banner-bg" id="top">
+            <div class="banner-overlay"></div>
+            <div class="welcome-text">
+                <h2>Portfolio Pessoal</h2>
+                <h5>Esse é meu portfolio pessoal que tem como prioridade apresentar meus trabalhos e projetos academicos</h5>
+            </div>
+        </div>
+
+        <!-- MAIN CONTENT -->
+        <div class="main-content">
+            <div class="fluid-container">
+
+                <div class="content-wrapper">
+                
+                    <!-- ABOUT -->
+                    <div class="page-section" id="about">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="widget-title">Aprenda sobre mim</h4>
+                            <div class="about-image">
+                                <img src="img/8.jpg" alt="about me">
+                            </div>
+                            <p> graduando em sistemas para internet, está atualmente no terceiro periodo do curso. Participou de iniciações científicas e iniciativas sociais como o <strong> PID </strong>, projeto social realizado pela faculdade IESP, que almeja o desenvolvimento de crianças e adolescentes de comunidades carentes da região metropolitana de João Pessoa. Tambem possui interesses na área de eletroeletronica e arduinos, usando o desenvolvimento de algoritmos e sistemas para aplicar de forma autodidata pequenos projetos e prototipos no dia a dia para resolução de problemas e otimização de ações.</p>
+                        </div>
+                    </div> <!-- #about -->
+                    </div>
+                    
+                    <!-- PROJECTS -->
+                    <div class="page-section" id="projects">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="widget-title">galeria de fotos</h4>
+                            <p>segue abaixo a galeria  de fotos</p>
+                        </div>
+                    </div>
+                    <div class="row projects-holder">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="project-item">
+                                <img src="img/1.jpeg" alt="">
+                                <div class="project-hover">
+                                    <div class="inside">
+                                        <h5><a href="#">PID</a></h5>
+                                        <p>aula de word sendo ministrada no segundo semestre de 2017</p>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="project-item">
+                                <img src="img/2.jpeg" alt="">
+                                <div class="project-hover">
+                                    <div class="inside">
+                                        <h5><a href="#">INICIAÇÃO CIENTÍFICA</a></h5>
+                                        <p>18º encontro de iniciação cientifica do IESP/FATEC, o artigo "e-commerce: revolucionando a experiencia da entrega" foi apresentado e selecionado para publicação no site oficial da faculdade  </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="project-item">
+                                <img src="img/3.jpeg" alt="">
+                                <div class="project-hover">
+                                    <div class="inside">
+                                        <h5><a href="#">INOVA IESP</a></h5>
+                                        <p> artigo apresentado no inova iesp 2017 </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div> <!-- .projects-holder -->
+                    </div>
+                    <hr>
+
+                    <!-- CONTACT -->
+                    <div class="page-section" id="contact">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h4 class="widget-title">FALE COMIGO</h4>
+                            <p>para um contato formal utilize a comunicação via <strong>email</strong>, para os demais assuntos utilize as redes sociais</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <form class="contact-form" onsubmit="validar()">
+                            <fieldset class="col-md-4 col-sm-6">
+                                <input type="text" id="nome" placeholder="nome" value="">
+                            </fieldset>
+                            <fieldset class="col-md-4 col-sm-6">
+                                <input type="email" id="email" placeholder="digite seu email" value="">
+                            </fieldset>
+                            <fieldset class="col-md-4 col-sm-12">
+                                <input type="text" id="assunto" placeholder="Assunto">
+                            </fieldset>
+                            <fieldset class="col-md-12 col-sm-12">
+                                <textarea name="message" id="mensagem" cols="30" rows="6" placeholder="digite aqui sua mensagem"></textarea>
+                            </fieldset>
+                            <fieldset class="col-md-12 col-sm-12">
+                                <input type="submit" class="button big default" value="enviar">
+                            </fieldset>
+                        </form>
+                    </div> <!-- .contact-form -->
+                    </div>
+                    <hr>
+
+                    <div class="row" id="footer">
+                        <div class="col-md-12 text-center">
+                            <p class="copyright-text">Copyright &copy; William Batista</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <script src="java_script/js"></script>
+       
+
+    </body>
+</html>
